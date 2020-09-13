@@ -283,7 +283,7 @@ hr {
 		transition-timing-function: ease;
 		transform-origin: 0 0;
 		transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
-		// 
+		//
 		transform: scaleX(0);
 		border-radius: 0;
 	}
@@ -296,7 +296,7 @@ hr {
 
 .btn.focus, .btn:focus {
 	outline: 0;
-	box-shadow:none; 
+	box-shadow:none;
 }
 .header-btn{
 	padding: 27px 18px;
@@ -369,7 +369,7 @@ hr {
 		transition-timing-function: ease;
 		transform-origin: 0 0;
 		transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
-		// 
+		//
 		transform: scaleY(0);
 		border-radius: 0;
 	}
@@ -518,7 +518,7 @@ hr {
 	100% {
 	  -webkit-transform: translateY(-20px);
 	  transform: translateY(-20px); } }
-	  
+
 /* heartbeat */
 	.heartbeat {
 		animation: heartbeat 1s infinite alternate;
@@ -693,7 +693,7 @@ hr {
 			padding-top: 70px;
 			padding-bottom: 70px;
 		}
-	}	
+	}
 
 	.pb-bottom{
 		padding-bottom: 200px;
@@ -709,7 +709,7 @@ hr {
 		@media #{$xs}{
 			padding-bottom: 10px;
 		}
-	}	
+	}
 	.pb-top{
 		padding-top: 200px;
 		@media #{$md}{
@@ -721,7 +721,7 @@ hr {
 		@media #{$xs}{
 			padding-top: 70px;
 		}
-	}	
+	}
 	.testimonial-padding{
 		padding-top: 190px;
 		padding-bottom: 170px;
@@ -741,7 +741,7 @@ hr {
 			padding-top: 60px;
 			padding-bottom: 40px;
 		}
-	}	
+	}
 	.w-padding2{
 		padding-top: 130px;
 		padding-bottom:125px;
@@ -807,22 +807,22 @@ hr {
 		}
 	}
 	.section-paddingt30{
-		padding-top: 195px;
-		padding-bottom: 90px;
+		padding-top: 80px;
+		padding-bottom: 45px;
 		@media #{$lg}{
-			padding-top: 150px;
-			padding-bottom: 90px;
+			padding-top: 80px;
+			padding-bottom: 45px;
 		}
 		@media #{$md}{
-			padding-top: 100px;
-			padding-bottom: 40px;
+			padding-top: 50px;
+			padding-bottom: 30px;
 		}
 		@media #{$sm}{
-			padding-top: 65px;
+			padding-top: 35px;
 			padding-bottom: 10px;
 		}
 		@media #{$xs}{
-			padding-top: 65px;
+			padding-top: 30px;
 			padding-bottom: 10px;
 		}
 	}
@@ -848,7 +848,7 @@ hr {
 			padding-bottom: 0;
 		}
 	}
-	
+
 	.footer-padding{
 		padding-top: 150px;
 		padding-bottom: 136px;

@@ -70,9 +70,47 @@
                 margin-bottom: 30px;
             }
         }
+        h2{
+          font-size: 40px;
+          //font-weight: 700;
+          margin-bottom: 14px;
+          color: #29437c;
+          line-height: 1.2;
+          text-transform: capitalize;
+          margin-bottom: 29px;
+          @media #{$lg}{
+              font-size: 30px;
+              line-height: 1.2;
+          }
+          @media #{$md}{
+              font-size: 20px;
+              line-height: 1.2;
+          }
+          @media #{$sm}{
+              font-size: 15px;
+              line-height: 1.2;
+          }
+          @media #{$xs}{
+              font-size: 15px;
+              line-height: 1.2;
+          }
+      }
+       span{
+          font-size: 14px;
+          line-height: 1.2;
+          font-weight: 300;
+          margin-bottom: 39px;
+          color: $theme_color;
+          margin-bottom: 37px;
+          text-transform: uppercase;
+          display: inline-block;
+          @media #{$xs}{
+              margin-bottom: 30px;
+          }
+        }
          p{
-            color: #464d65;
-            margin-bottom: 42px
+            color: #white-color;
+            margin-bottom: 30px
         }
     }
 
@@ -101,6 +139,7 @@
 .slider-area{
     .hero-cap{
         & h2{
+            color: #002d5b;
             font-size: 70px;
             font-weight: 900;
             text-transform: capitalize;
@@ -112,7 +151,7 @@
                 font-size: 50px;
               }
         }
-        // 
+        //
         // nav {
         //     margin: 7px 0;
         //     padding-left: 95px;
@@ -134,13 +173,13 @@
             margin: 0;
 
             a {
-                color: #ec5b53;
+                color: #29437c;
                 font-size: 18px;
                 text-transform: capitalize;
             }
         }
         .breadcrumb-item + .breadcrumb-item::before {
-            color: #ec5b53;
+            color: #29437c;
         }
         &.hero-cap2{
             @media #{$xs}{
