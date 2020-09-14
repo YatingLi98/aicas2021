@@ -1,10 +1,14 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 app = Flask(__name__)
 
 
 @app.route('/')
-@app.route("/index")
 def index():
+    return redirect("/index")
+
+
+@app.route("/index")
+def index_dup():
     return render_template("index.html")
 
 
