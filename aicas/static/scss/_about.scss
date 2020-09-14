@@ -4,7 +4,7 @@
             font-size: 30px;
             color: #000a2d;
             font-weight: 700;
-            margin-bottom: 35px;
+            margin-bottom: 25px;
             line-height: 1.5;
             @media #{$xs}{
                 font-size: 24px;
@@ -13,7 +13,7 @@
 
         }
         .pera1{
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
         ul{
@@ -32,7 +32,7 @@
             font-size: 40px;
             color: #000a2d;
             font-weight: 700;
-            margin-bottom: 35px;
+            margin-bottom: 25px;
             line-height: 1.5;
             @media #{$md}{
                 font-size: 30px;
@@ -101,22 +101,22 @@
     }
     .about-me-caption{
         h2 {
-            font-size: 48px;
+            font-size: 24px;
             display: block;
             color: $heading-color;
             font-weight: 600;
             margin-bottom: 40px;
             @media #{$lg}{
-                font-size: 41px;
+                font-size: 24px;
             }
             @media #{$md}{
-                font-size: 35px;
+                font-size: 20px;
             }
             @media #{$sm}{
-                font-size: 31px;
+                font-size: 18px;
             }
             @media #{$xs}{
-                font-size: 24px;
+                font-size: 16px;
                 line-height: 1.6;
             }
         }

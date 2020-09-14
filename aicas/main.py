@@ -26,3 +26,8 @@ def ctutorials():
 @app.route('/csessions')
 def csessions():
     return render_template("csessions.html")
+
+
+@app.route('/organization')
+def organization():
+    return render_template("organization.html")

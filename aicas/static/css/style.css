@@ -187,7 +187,7 @@ h6 {
 p {
   font-family: "Rubik", sans-serif;
   color: #10285d;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
   margin-bottom: 15px;
   font-weight: normal;
@@ -2496,7 +2496,7 @@ hr {
   font-weight: 500;
   padding: 39px 10px;
   display: block;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2705,9 +2705,8 @@ hr {
 .slider-area .hero__caption h2 {
   font-size: 40px;
   margin-bottom: 14px;
-  color: #29437c;
+  color: #white-color;
   line-height: 1.2;
-  text-transform: capitalize;
   margin-bottom: 29px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2750,6 +2749,7 @@ hr {
   }
 }
 .slider-area .hero__caption p {
+  font-size: 25px;
   color: #white-color;
   margin-bottom: 30px;
 }
@@ -2832,7 +2832,7 @@ hr {
   font-size: 30px;
   color: #000a2d;
   font-weight: 700;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   line-height: 1.5;
 }
 @media (max-width: 575px) {
@@ -2842,7 +2842,7 @@ hr {
   }
 }
 .about-area .about-caption .pera1 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .about-area .about-caption ul {
   list-style-type: disc;
@@ -2856,7 +2856,7 @@ hr {
   font-size: 40px;
   color: #000a2d;
   font-weight: 700;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   line-height: 1.5;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2931,7 +2931,7 @@ hr {
   width: 100%;
 }
 .about-me .about-me-caption h2 {
-  font-size: 48px;
+  font-size: 24px;
   display: block;
   color: #000a2d;
   font-weight: 600;
@@ -2939,22 +2939,22 @@ hr {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-me .about-me-caption h2 {
-    font-size: 41px;
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-me .about-me-caption h2 {
-    font-size: 35px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-me .about-me-caption h2 {
-    font-size: 31px;
+    font-size: 18px;
   }
 }
 @media (max-width: 575px) {
   .about-me .about-me-caption h2 {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.6;
   }
 }

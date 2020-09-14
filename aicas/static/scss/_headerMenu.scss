@@ -37,7 +37,7 @@
                     font-weight: 500;
                     padding: 39px 10px;
                     display: block;
-                    font-size: 16px;
+                    font-size: 20px;
                     @include transition(.3s);
                     text-transform: capitalize;
                     position: relative;
@@ -82,13 +82,13 @@
                             background: none;
                         }
                     }
-                } 
+                }
             }
         }
     }
     .logo{
         & img{
-            
+
         }
     }
 }
