@@ -55,7 +55,7 @@
                                         <nav>
                                             <ul id="navigation">
                                                 <li><a href={{ url_for('index') }}>HOME</a></li>
-                                                <li><a href="organization.html">ORGANIZATION</a></li>
+                                                <li><a href={{ url_for('organization') }}>ORGANIZATION</a></li>
                                                 <li><a href="#">SUBMISSIONS</a>
                                                     <ul class="submenu">
                                                         <li><a href={{ url_for('cpapers') }}>CALL FOR PAPERS</a></li>
@@ -119,7 +119,14 @@
                     <!-- <div class="col-lg-5"> -->
                         <div class="about-caption mb-50">
                             <h3>Call For Papers</h3>
-                            <p class="pera1"> </p>
+
+                            <p class="pera1">
+                              Detailed information are available 
+                              <strong>
+                              <a href={{ url_for('send_pdf', path="AICAS_2021_CFP.pdf") }}>here</a>
+                            </strong>.
+                            </p>
+
                         </div>
                     </div>
             </div>

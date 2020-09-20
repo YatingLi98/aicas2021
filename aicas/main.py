@@ -1,4 +1,5 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, send_from_directory
+import os
 app = Flask(__name__)
 
 
@@ -35,3 +36,10 @@ def csessions():
 @app.route('/organization')
 def organization():
     return render_template("organization.html")
+
+
+@app.route("/pdf/<path:path>")
+def send_pdf(path):
+    if os.path.exists(os.path.join("static/pdf", path)):
+        return send_from_directory("static/pdf", path)
+    return redirect("/index")
