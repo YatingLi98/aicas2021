@@ -2831,6 +2831,11 @@ hr {
   }
 }
 
+.about-area .about-caption {
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
 .about-area .about-caption h3 {
   font-size: 30px;
   color: #000a2d;
@@ -2854,6 +2859,28 @@ hr {
 .about-area .about-caption li {
   list-style: disc;
   list-style-position: inside;
+  font-size: 20px;
+}
+.about-area .about-caption b {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FF0000;
+}
+.about-area .about-caption a:link {
+  color: #0000EE;
+  font-size: 20px;
+}
+.about-area .about-caption a:visited {
+  color: #0000EE;
+  font-size: 22px;
+}
+.about-area .about-caption a:hover {
+  color: #FF0000;
+  font-size: 22px;
+}
+.about-area .about-caption a:active {
+  color: #0000EE;
+  font-size: 22px;
 }
 .about-area .about-caption2 h3 {
   font-size: 40px;
