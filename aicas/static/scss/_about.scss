@@ -4,7 +4,7 @@
             font-size: 30px;
             color: #000a2d;
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             line-height: 1.5;
             @media #{$xs}{
                 font-size: 24px;
@@ -60,7 +60,7 @@
             font-size: 40px;
             color: #000a2d;
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             line-height: 1.5;
             @media #{$md}{
                 font-size: 30px;
@@ -133,7 +133,7 @@
             display: block;
             color: $heading-color;
             font-weight: 600;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             @media #{$lg}{
                 font-size: 24px;
             }

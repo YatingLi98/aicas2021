@@ -8,7 +8,7 @@
 	  Description:
 	  Version:
 
-------------------------------------------------- 
+-------------------------------------------------
 */
 /* CSS Index
 -------------------------------------------------
@@ -2840,7 +2840,7 @@ hr {
   font-size: 30px;
   color: #000a2d;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   line-height: 1.5;
 }
 @media (max-width: 575px) {
@@ -2886,7 +2886,7 @@ hr {
   font-size: 40px;
   color: #000a2d;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   line-height: 1.5;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2965,7 +2965,7 @@ hr {
   display: block;
   color: #000a2d;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-me .about-me-caption h2 {
