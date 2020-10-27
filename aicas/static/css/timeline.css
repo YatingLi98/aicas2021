@@ -18,8 +18,13 @@ body {
   z-index: 2;
 }
 
+.how-it-works.p {
+  color: #898989;
+}
+
 .how-it-works.row {
   display: flex;
+  margin-left: -15px;
 }
 .how-it-works.row .col-2 {
   display: inline-flex;
@@ -51,7 +56,12 @@ body {
   color: #0068bf;
   font-size: 20px;
 }
-.p {
+
+.email:hover {
+  color: #0068bf;
+  border-bottom: 1px solid #0068bf;
+}
+.uni {
   color: #898989;
 }
 

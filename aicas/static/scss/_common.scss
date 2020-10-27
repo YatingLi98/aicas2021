@@ -26,7 +26,7 @@ p {
 
 	font-size: 20px;
 	line-height: 30px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	font-weight: normal;
 }
 
@@ -808,22 +808,22 @@ hr {
 	}
 	.section-paddingt30{
 		padding-top: 50px;
-		padding-bottom: 35px;
+		padding-bottom: 15px;
 		@media #{$lg}{
 			padding-top: 50px;
-			padding-bottom: 35px;
+			padding-bottom: 15px;
 		}
 		@media #{$md}{
 			padding-top: 40px;
-			padding-bottom: 25px;
+			padding-bottom: 10px;
 		}
 		@media #{$sm}{
 			padding-top: 30px;
-			padding-bottom: 10px;
+			padding-bottom: 5px;
 		}
 		@media #{$xs}{
 			padding-top: 25px;
-			padding-bottom: 10px;
+			padding-bottom: 5px;
 		}
 	}
 
