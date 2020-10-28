@@ -2499,7 +2499,7 @@ hr {
   font-weight: 500;
   padding: 39px 10px;
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2526,7 +2526,7 @@ hr {
 }
 .main-header .main-menu ul ul.submenu {
   position: absolute;
-  width: 170px;
+  width: 270px;
   background: #fff;
   left: 0;
   top: 120%;

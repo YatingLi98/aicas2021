@@ -37,7 +37,7 @@
                     font-weight: 500;
                     padding: 39px 10px;
                     display: block;
-                    font-size: 20px;
+                    font-size: 18px;
                     @include transition(.3s);
                     text-transform: capitalize;
                     position: relative;
@@ -59,7 +59,7 @@
             }
             & ul.submenu{
                 position: absolute;
-                width: 170px;
+                width: 270px;
                 background: #fff;
                 left: 0;
                 top: 120%;
