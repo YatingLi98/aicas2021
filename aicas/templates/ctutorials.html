@@ -21,6 +21,7 @@
             <link rel="stylesheet" href="../static/css/slick.css">
             <link rel="stylesheet" href="../static/css/nice-select.css">
             <link rel="stylesheet" href="../static/css/style.css">
+            <link rel="stylesheet" href="../static/css/timeline.css">
    </head>
 
    <body>
@@ -56,7 +57,7 @@
                                             <ul id="navigation">
                                                 <li><a href={{ url_for('index') }}>HOME</a></li>
                                                 <li><a href={{ url_for('organization') }}>ORGANIZATION</a></li>
-                                                <li><a href="#">CALL FOR CONTRIBUTIONS</a>
+                                                <li><a href="#">CALL FOR CONTRIBUTION</a>
                                                     <ul class="submenu">
                                                         <li><a href={{ url_for('cpapers') }}>CALL FOR PAPERS</a></li>
                                                         <li><a href={{ url_for('csessions') }}>CALL FOR SPECIAL SESSIONS</a></li>
@@ -127,6 +128,76 @@
         </section>
 
         <!-- About Area End -->
+        <!-- Time Line Start -->
+          <section class="about-area section-paddingt10">
+
+            <!-- <div class="container-fluid blue-bg"> -->
+              <div class="container">
+                <div class="row">
+                  <div class="about-caption">
+                      <h3>Tutorial Co-chairs</h3>
+                  </div>
+                </div>
+                <!--path between 0-1-->
+                <div class="row timeline">
+                  <div class="col-10">
+                    <hr/>
+                  </div>
+                </div>
+                <!--first section-->
+                <div class="row align-items-center how-it-works">
+                  <div class="about-caption col-6">
+                    <h5>Priya Panda</h5>
+                    <h6>Yale University, USA</h6>
+                  </div>
+                  <div class="col-6">
+                    <a class="email" href="mailto:priya.panda@yale.edu">priya.panda@yale.edu</a>
+                  </div>
+                </div>
+                <!--path between 1-2-->
+                <div class="row timeline">
+                  <div class="col-10">
+                    <hr/>
+                  </div>
+                </div>
+                <!-- second-->
+                <div class="row align-items-center how-it-works">
+                  <div class="about-caption col-6">
+                    <h5>Aida Todri-Sanial</h5>
+                    <h6>Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier, France</h6>
+                  </div>
+                  <div class="col-6">
+                    <a class="email" href="mailto:todri@lirmm.fr">todri@lirmm.fr</a>
+                  </div>
+                </div>
+                <!--path between 1-2-->
+                <div class="row timeline">
+                  <div class="col-10">
+                    <hr/>
+                  </div>
+                </div>
+              <!-- third-->
+              <div class="row align-items-center how-it-works">
+                <div class="about-caption col-6">
+                  <h5>Jae-sun Seo</h5>
+                  <h6>Arizona State University, USA</h6>
+                </div>
+                <div class="col-6">
+                  <a class="email" href="mailto:jaesun.seo@asu.edu">jaesun.seo@asu.edu</a>
+                </div>
+              </div>
+              <!--path between 2-3-->
+              <div class="row timeline">
+                <div class="col-10">
+                  <hr/>
+                </div>
+              </div>
+
+              <div class="about-caption mb-50">
+              </div>
+            </div>
+          </section>
+        <!-- Time Line End -->
 
     </main>
     <footer>
