@@ -52,6 +52,7 @@ body {
   left: 50%;
   top: 0;
 }
+
 .email {
   color: #0068bf;
   font-size: 20px;
@@ -60,9 +61,6 @@ body {
 .email:hover {
   color: #0068bf;
   border-bottom: 1px solid #0068bf;
-}
-.uni {
-  color: #898989;
 }
 
 .timeline div {
