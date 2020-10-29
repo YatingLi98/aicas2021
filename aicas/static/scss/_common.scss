@@ -696,12 +696,12 @@ hr {
 	}
 
 	.pb-bottom{
-		padding-bottom: 200px;
+		padding-bottom: 20px;
 		@media #{$lg}{
-			padding-bottom: 200px;
+			padding-bottom: 20px;
 		}
 		@media #{$md}{
-			padding-bottom: 50px;
+			padding-bottom: 10px;
 		}
 		@media #{$sm}{
 			padding-bottom: 10px;
