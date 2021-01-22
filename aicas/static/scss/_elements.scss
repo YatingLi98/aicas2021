@@ -86,9 +86,12 @@ $black: #000;
 b,
 sup,
 sub,
-u,
-del {
+u {
     color: $primary;
+}
+
+del {
+  color: #7f0404
 }
 
 .typography {

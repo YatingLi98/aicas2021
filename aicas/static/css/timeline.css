@@ -18,6 +18,10 @@ body {
   z-index: 2;
 }
 
+.text-red {
+  color: #7f0404;
+}
+
 .how-it-works.p {
   color: #898989;
 }
