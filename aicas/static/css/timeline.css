@@ -13,13 +13,13 @@ body {
 
 .circle {
   font-weight: bold;
-  padding: 15px 20px;
+  padding: 0px 20px;
   max-height: 50px;
   z-index: 2;
 }
 
 .text-red {
-  color: #7f0404;
+  color: #FF0000;
 }
 
 .how-it-works.p {
@@ -69,7 +69,7 @@ body {
 
 .timeline div {
   padding: 0;
-  height: 20px;
+  height: 40px;
 }
 .timeline hr {
   border-top: 1px solid #D3D3D3;
