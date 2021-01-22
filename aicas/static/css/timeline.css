@@ -13,7 +13,7 @@ body {
 
 .circle {
   font-weight: bold;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   /* max-height: 50px; */
   z-index: 2;
 }
