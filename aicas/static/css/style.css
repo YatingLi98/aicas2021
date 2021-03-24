@@ -2892,6 +2892,55 @@ hr {
   color: #0000EE;
   font-size: 22px;
 }
+.about-area .about-registration h3 {
+  font-size: 30px;
+  color: #000a2d;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+@media (max-width: 575px) {
+  .about-area .about-registration h3 {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+}
+.about-area .about-registration .pera1 {
+  margin-bottom: 20px;
+}
+.about-area .about-registration .email:hover {
+  border-bottom: 1px solid #0068bf;
+}
+.about-area .about-registration ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.about-area .about-registration li {
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-area .about-registration h5 {
+  font-weight: 700;
+  color: #10285D;
+}
+.about-area .about-registration h6 {
+  color: #898989;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.about-area .about-registration b {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FF0000;
+}
+.about-area .about-registration a:link {
+  color: #0068bf;
+  font-size: 20px;
+}
 .about-area .about-caption2 h3 {
   font-size: 40px;
   color: #000a2d;

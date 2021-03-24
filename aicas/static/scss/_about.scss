@@ -65,6 +65,60 @@
         }
 
     }
+    .about-registration{
+        h3{
+            font-size: 30px;
+            color: #000a2d;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            @media #{$xs}{
+                font-size: 24px;
+                line-height: 1.6;
+            }
+
+        }
+        .pera1{
+            margin-bottom: 20px;
+        }
+        .email:hover {
+          
+          border-bottom: 1px solid #0068bf;
+        }
+
+        ul{
+          list-style-type: disc;
+          list-style-position: inside;
+        }
+
+        li {
+          font-family: "Rubik", sans-serif;
+          font-weight: normal;
+          list-style: disc;
+          list-style-position: inside;
+          font-size: 20px;
+          line-height: 30px;
+        }
+        h5 {
+          font-weight: 700;
+          color: #10285D;
+        }
+        h6 {
+          color: #898989;
+          font-weight: 700;
+          margin-left: 10px;
+        }
+        b {
+          font-weight: bold;
+          font-size: 20px;
+          color: #FF0000;
+        }
+        a:link {
+          color: #0068bf;
+          font-size: 20px;
+        }
+
+    }
     .about-caption2{
         h3{
             font-size: 40px;

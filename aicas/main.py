@@ -38,6 +38,11 @@ def organization():
     return render_template("organization.html")
 
 
+@app.route('/registration')
+def registration():
+    return render_template("registration.html")
+
+
 @app.route("/pdf/<path:path>")
 def send_pdf(path):
     if os.path.exists(os.path.join("static/pdf", path)):
