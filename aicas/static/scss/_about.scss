@@ -51,7 +51,6 @@
           color: #0000EE;
           font-size: 22px;
         }
-
         /* mouse over link */
         a:hover {
           color: #FF0000;
@@ -65,6 +64,74 @@
         }
 
     }
+    .about-authorInfo{
+        h3{
+            font-size: 30px;
+            color: #000a2d;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            @media #{$xs}{
+                font-size: 24px;
+                line-height: 1.6;
+            }
+
+        }
+        .pera1{
+            margin-bottom: 20px;
+        }
+
+        ul{
+          list-style-type: disc;
+          list-style-position: inside;
+        }
+
+        li {
+          font-family: "Rubik", sans-serif;
+          color: #10285D;
+          list-style: disc;
+          list-style-position: inside;
+          font-size: 20px;
+          line-height: 30px;
+        }
+        h5 {
+          font-weight: 700;
+          color: #10285D;
+        }
+        h6 {
+          color: #898989;
+          font-weight: 700;
+          margin-left: 10px;
+        }
+        b {
+          font-weight: bold;
+          font-size: 20px;
+          color: #FF0000;
+        }
+        a:link {
+          color: #0000EE;
+          font-size: 20px;
+        }
+
+        /* visited link */
+        a:visited {
+          color: #0000EE;
+          font-size: 22px;
+        }
+        /* mouse over link */
+        a:hover {
+          color: #FF0000;
+          font-size: 22px;
+        }
+
+        /* selected link */
+        a:active {
+          color: #0000EE;
+          font-size: 22px;
+        }
+
+    }
+
     .about-registration{
         h3{
             font-size: 30px;
@@ -82,7 +149,6 @@
             margin-bottom: 20px;
         }
         .email:hover {
-          
           border-bottom: 1px solid #0068bf;
         }
 
@@ -93,6 +159,7 @@
 
         li {
           font-family: "Rubik", sans-serif;
+          color: #10285D;
           font-weight: normal;
           list-style: disc;
           list-style-position: inside;

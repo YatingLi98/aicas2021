@@ -43,6 +43,11 @@ def registration():
     return render_template("registration.html")
 
 
+@app.route('/authorInfo')
+def authorInfo():
+    return render_template("authorInfo.html")
+
+
 @app.route("/pdf/<path:path>")
 def send_pdf(path):
     if os.path.exists(os.path.join("static/pdf", path)):
