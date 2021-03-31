@@ -48,6 +48,21 @@ def authorInfo():
     return render_template("authorInfo.html")
 
 
+@app.route('/programSchedule')
+def programSchedule():
+    return render_template("program_schedule.html")
+
+
+@app.route('/keynoteSpeakers')
+def keynoteSpeakers():
+    return render_template("keynote_speakers.html")
+
+
+@app.route('/tutorials')
+def tutorials():
+    return render_template("tutorials.html")
+
+
 @app.route("/pdf/<path:path>")
 def send_pdf(path):
     if os.path.exists(os.path.join("static/pdf", path)):
