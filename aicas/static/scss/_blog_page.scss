@@ -637,9 +637,20 @@
         font-size: 18px;
         font-weight: 600;
         margin-bottom: 8px;
-
+        color: #0072BC;
         @media(min-width: 768px) {
             font-size: 22px;
+            margin-bottom: 15px;
+        }
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        margin-left: 10px;
+        color: #999999;
+        @media(min-width: 768px) {
+            font-size: 20px;
             margin-bottom: 15px;
         }
     }
@@ -652,7 +663,7 @@
         font-size: 18px;
 
         a {
-            color: #999999;
+            color: #014199;
         }
 
         i,
@@ -1307,10 +1318,6 @@
         p {
             margin-bottom: 0;
             font-size: 18px;
-        }
-
-        h4 {
-            font-size: 16px;
         }
     }
 

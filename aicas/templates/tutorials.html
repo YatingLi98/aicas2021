@@ -1,0 +1,332 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>AICAS | 2021 </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico">
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="../static/css/slicknav.css">
+            <link rel="stylesheet" href="../static/css/flaticon.css">
+            <link rel="stylesheet" href="../static/css/animate.min.css">
+            <link rel="stylesheet" href="../static/css/magnific-popup.css">
+            <link rel="stylesheet" href="../static/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="../static/css/themify-icons.css">
+            <link rel="stylesheet" href="../static/css/slick.css">
+            <link rel="stylesheet" href="../static/css/nice-select.css">
+            <link rel="stylesheet" href="../static/css/style.css">
+            <link rel="stylesheet" href="../static/css/chart.css">
+   </head>
+
+   <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="../static/img/logo/loder.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+                <div class="main-header  header-sticky">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-2 col-md-1">
+                                <div class="logo">
+                                    <a href="index.html"><img src="../static/img/logo/logo.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <div class="menu-main d-flex align-items-center justify-content-end">
+                                    <!-- Main-menu -->
+                                    <div class="main-menu f-right d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a href={{ url_for('index') }}>HOME</a></li>
+                                                <li><a href={{ url_for('organization') }}>ORGANIZATION</a></li>
+                                                <li><a href="https://epapers.org/aicas2021/ESR/login.php">PAPER SUBMISSION</a></li>
+                                                <li><a href="#">CALL FOR CONTRIBUTION</a>
+                                                    <ul class="submenu">
+                                                        <li><a href={{ url_for('cpapers') }}>CALL FOR PAPERS</a></li>
+                                                        <li><a href={{ url_for('csessions') }}>CALL FOR SPECIAL SESSIONS</a></li>
+                                                        <li><a href={{ url_for('ctutorials') }}>CALL FOR TUTORIALS</a></li>
+                                                        <li><a href={{ url_for('cdemos') }}>CALL FOR DEMOS</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href={{ url_for('registration') }}>REGISTRATION</a></li>
+                                                <li><a href={{ url_for('authorInfo') }}>AUTHOR INFO</a></li>
+                                                <li><a href="#">PROGRAM</a>
+                                                    <ul class="submenu">
+                                                        <!-- <li><a href={{ url_for('programSchedule') }}>PROGRAM SCHEDULE</a></li> -->
+                                                        <li><a href={{ url_for('keynoteSpeakers') }}>KEYNOTE SPEAKERS</a></li>
+                                                        <li><a href={{ url_for('tutorials') }}>TUTORIALS</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+
+        <!-- Hero Start -->
+        <div class="slider-area ">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap">
+                                <h2>Tutorials</h2>
+                                <nav aria-label="breadcrumb ">
+                                    <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Tutorials</a></li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!--================Blog Area =================-->
+        <section class="blog_area single-post-area">
+           <div class="container">
+              <div class="row">
+                 <div class="col-12 posts-list">
+                    <div class="blog-author">
+                       <div class="media">
+                         <div class="container">
+                            <img src="../static/img/blog/bongjing.png" alt="">
+                          </div>
+                          <!-- <div class="media-body"> -->
+                             <div class="blog_details col-8">
+                               <div class="d-inline-block">
+                                   <h2>Bongjin Kim</h2>
+                                   <h4>University of California, Santa Barbara, US</h4>
+                               </div>
+                               <br>
+                                 <div class="d-inline-block">
+                                  <h3>Design of CMOS Annealing Processor for Solving Combinatorial Optimization Problems</h3>
+                                </div>
+                                <ul class="blog-info-link">
+                                  <li>
+                                    <a class="el-item" data-toggle="collapse" href="#bojingBG" role="button" aria-expanded="false" aria-controls="bojingBG">
+                                      <i class="fa fa-user"></i> BIOGRAPHY
+                                    </a>
+                                  </li>
+                                  <li>
+                                     <a class="el-item" data-toggle="collapse" href="#bojingAB" role="button" aria-expanded="false" aria-controls="bojingAB">
+                                       <i class="fa fa-comments"></i> ABSTRACT
+                                     </a>
+                                  </li>
+                                </ul>
+                                <div class="collapse" id="bojingBG">
+                                  <div class="card card-body">
+                                    <p>Bongjin Kim received his PhD degree from the University of Minnesota in 2014. After his PhD, he worked on design techniques and methodologies for communication circuits and microarchitectures at Rambus and Stanford University as a senior staff and a postdoctoral research fellow. After working as an assistant professor at Nanyang Technological University in Singapore for three years (from 2017 to 2020), he joined the Department of Electrical and Computer Engineering at UC Santa Barbara. His research team develops innovative integrated circuits and system solutions using traditional CMOS logic and emerging technologies to solve challenging problems in fundamental science and accelerate computations and communications. Target applications include, but not limited to, artificial intelligence, machine learning, robotics, and alternative computing. He received the Doctoral Dissertation Fellowship Award at the University of Minnesota and the ISLPED International Low Power Design Contest Award. His research works have been published in peer-reviewed conferences and journals, including the International Solid-State Circuits Conference (ISSCC), VLSI Symposium, Custom Integrated Circuits Conference (CICC), and Journal of Solid-State Circuits (JSSC). He has served on the technical program committee for Design Automation Conference (DAC) and the IEEE Solid-State Circuits Letter (SSC-L) editorial review board.</p>
+                                  </div>
+                                </div>
+                                 <div class="collapse" id="bojingAB">
+                                   <div class="card card-body">
+                                     <p>Annealing processors based on the convergence property of the Ising model offer an attractive means for solving non-deterministic polynomial-time hard (NP-hard) combinatorial optimization problems. Quantum annealing processors exploiting quantum tunneling effect implemented >1K spins using 100K+ Josephson junctions. However, the practical application of quantum annealers is limited due to the extreme operating conditions (e.g., extremely low operating temperature, 15mK) and the associated huge power consumption (e.g., 25kW) as well as high development and operation cost. Alternatively, low-power annealing processors based on simulated annealing have been developed using low-cost CMOS process. This tutorial introduces fundamentals and recent progresses in the design of CMOS annealing processors.</p>
+                                   </div>
+                                 </div>
+
+                             </div>
+                          <!-- </div> -->
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <section class="blog_area single-post-area">
+           <div class="container">
+              <div class="row">
+                 <div class="col-12 posts-list">
+                    <div class="blog-author">
+                       <div class="media">
+                         <div class="container">
+                            <img src="../static/img/blog/siegfried.png" alt="">
+                          </div>
+                          <!-- <div class="media-body"> -->
+                             <div class="blog_details col-8">
+                               <div class="d-inline-block">
+                                   <h2>Siegfried Karg</h2>
+                                   <h4>IBM Research Zurich, US</h4>
+                               </div>
+                               <br>
+                                 <div class="d-inline-block">
+                                  <h3>Computing with Oscillating Neural Networks</h3>
+                                </div>
+                                <ul class="blog-info-link">
+                                  <li>
+                                    <a class="el-item" data-toggle="collapse" href="#siegfriedBG" role="button" aria-expanded="false" aria-controls="siegfriedBG">
+                                      <i class="fa fa-user"></i> BIOGRAPHY
+                                    </a>
+                                  </li>
+                                  <li>
+                                     <a class="el-item" data-toggle="collapse" href="#siegfriedAB" role="button" aria-expanded="false" aria-controls="siegfriedAB">
+                                       <i class="fa fa-comments"></i> ABSTRACT
+                                     </a>
+                                  </li>
+                                </ul>
+                                <div class="collapse" id="siegfriedBG">
+                                  <div class="card card-body">
+                                    <p>Dr. Siegfried Karg is a Research Staff Member at IBM Research – Zurich and a Senior Member of IEEE. He worked on the physics and materials science of organic and polymer devices (OLEDs, OFETs and electrochemical cells). He has conducted research on memory applications such as resistive oxide RAM and on capacitorless eDRAM based on III-V semiconductor transistors. Moreover, he investigated the one-dimensional electronic properties of InAs nanostructures. His current research fields include brain-inspired computing applications exploiting oscillatory neural networks (with electronic oscillators based on the metal-insulator transition of VO2). S. Karg has authored about 100 scientific publications and holds more than 30 patents.</p>
+                                  </div>
+                                </div>
+                                 <div class="collapse" id="siegfriedAB">
+                                   <div class="card card-body">
+                                     <p>Machine-learning applications are penetrating virtually every aspect of modern society, e.g. natural-language processing for virtual personal assistants, image recognition for social media, mobility data for traffic prediction. Nonetheless, already fairly simple tasks in human everyday life such as recognizing patterns from a stream of images brings even the most powerful computer chip at its limits. The underlying von-Neumann architecture with its physically separated processor and memory appears as a major bottleneck for faster and more power-efficient inference machines. In-memory or in-sensor computation has been proposed to reduce data traffic and latency. This offers the opportunity to move specific tasks into the analog domain and process data inherently parallel and power efficient. However, these neuromorphic computing approaches come with substantial challenges for system design, mixed-signal electronic circuits and physical modelling.</p>
+                                     <p>Development of materials with non-linear properties such as memristive oxides or metal-insulator transition materials offer new routes to brain-inspired data processing. As an example, we will show a novel and alternative neuromorphic computing paradigm based on oscillating neural networks (ONN). Area and power efficient relaxation oscillators based on the metal-insulator phase-transition material VO2 act as ‘neurons’. Tunable memristors are envisioned as the ‘synapses’ of the network. Inspired by neural oscillations or brain waves, in ONN the information is encoded in the phase of coupled oscillators.</p>
+                                     <p>We will demonstrate the neuro-computational computing power of these phase-modulated ONN by means of experiments and simulations. The scope of the project ranges from material and fabrication aspects of VO2 layers, over device fabrication and characterization and modelling to circuit-level ONN implementations and simulation of ML applications. Key questions on topics such as influence of device and process variability, prospects of the ONN architecture for compute performance and power consumption will be addressed.</p>
+                                   </div>
+                                 </div>
+
+                             </div>
+                          <!-- </div> -->
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <section class="blog_area single-post-area mb-50">
+           <div class="container">
+              <div class="row">
+                 <div class="col-12 posts-list">
+                    <div class="blog-author">
+                       <div class="media">
+                         <div class="container">
+                            <img src="../static/img/blog/abhronil.png" alt="">
+                          </div>
+                          <!-- <div class="media-body"> -->
+                             <div class="blog_details col-8">
+                               <div class="d-inline-block">
+                                   <h2>Abhronil Sengupta</h2>
+                                   <h4>The Pennsylvania State University, US</h4>
+                               </div>
+                               <br>
+                                 <div class="d-inline-block">
+                                  <h3>Neuromorphic Computing – Opportunities and Challenges</h3>
+                                </div>
+                                <ul class="blog-info-link">
+                                  <li>
+                                    <a class="el-item" data-toggle="collapse" href="#AbhronilBG" role="button" aria-expanded="false" aria-controls="AbhronilBG">
+                                      <i class="fa fa-user"></i> BIOGRAPHY
+                                    </a>
+                                  </li>
+                                  <li>
+                                     <a class="el-item" data-toggle="collapse" href="#AbhronilAB" role="button" aria-expanded="false" aria-controls="AbhronilAB">
+                                       <i class="fa fa-comments"></i> ABSTRACT
+                                     </a>
+                                  </li>
+                                </ul>
+                                <div class="collapse" id="AbhronilBG">
+                                  <div class="card card-body">
+                                    <p>Dr. Abhronil Sengupta is an Assistant Professor in the School of Electrical Engineering and Computer Science at Penn State University. He is also affiliated with the Department of Materials Science and Engineering and the Materials Research Institute (MRI). Dr. Sengupta received the PhD degree in Electrical and Computer Engineering from Purdue University in 2018 and the B.E. degree from Jadavpur University, India in 2013. He worked as a DAAD (German Academic Exchange Service) Fellow at the University of Hamburg, Germany in 2012, and as a graduate research intern at Circuit Research Labs, Intel Labs in 2016 and Facebook Reality Labs in 2017. Dr. Sengupta has published over 60 articles in referred journals and conferences and holds 4 granted/pending US patents. He serves on the IEEE Circuits and Systems Society Technical Committee on Neural Systems and Applications, Editorial Board of Neuromorphic Computing and Engineering, Frontiers in Neuroscience journals and the Technical Program Committee of several international conferences like DAC, ICCAD, ISQED and GLSVLSI. He has been awarded the IEEE Circuits and Systems Society (CASS) Outstanding Young Author Award (2019), IEEE SiPS Best Paper Award (2018), Schmidt Science Fellows Award nominee (2017), Bilsland Dissertation Fellowship (2017), CSPIN Student Presenter Award (2015), Birck Fellowship (2013), the DAAD WISE Fellowship (2012). His work on neuromorphic computing has been highlighted in media by MIT Technology Review, US Department of Defense, American Institute of Physics among others. Dr. Sengupta is a member of the IEEE Electron Devices Society (EDS) and Circuits and Systems (CAS) Society, the Association for Computing Machinery (ACM) and the American Physical Society (APS).</p>
+                                  </div>
+                                </div>
+                                 <div class="collapse" id="AbhronilAB">
+                                   <div class="card card-body">
+                                     <p>While research in designing brain-inspired algorithms have attained a stage where such Artificial Intelligence platforms are being able to outperform humans at several cognitive tasks, an often-unnoticed cost is the huge computational expenses required for running these algorithms in hardware. Bridging the computational efficiency gap necessitates the exploration of devices, circuits and algorithms that provide a better match to the computational primitives of biological processing – neurons and synapses, and which require a significant rethinking of traditional von-Neumann based computing. The tutorial will discuss innovations in emerging post-CMOS technologies that are revealing immense possibilities of implementing a plethora of neural and synaptic functionalities by single device structures that can be operated at very low terminal voltages. The tutorial will also discuss recent innovations at the algorithm front on exploring event-driven Spiking Neural Networks for large-scale machine learning tasks. Such neuromorphic systems can potentially provide significantly lower computational overhead in contrast to standard deep learning platforms, especially in sparse, event-driven application domains with temporal information processing. I will conclude the presentation by providing the prospects of enabling end-to-end cognitive intelligence across the computing stack that combines knowledge from devices and circuits to machine learning and computational neuroscience.</p>
+
+                                   </div>
+                                 </div>
+
+                             </div>
+                          <!-- </div> -->
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+
+        <!--================Blog Area =================-->
+
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area">
+            <div class="container">
+               <div class="footer-top footer-padding">
+                   <div class="row justify-content-center">
+                       <div class="col-lg-6">
+                            <div class="footer-top-cap text-center">
+                                <img src="../static/img/logo/logo2_footer.png" alt="">
+                                <!-- <span><a href="#">hireme@portfolio.com</a></span> -->
+                                <p>Email: aicas2021gc@gmail.com</p>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./../static/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./../static/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./../static/js/popper.min.js"></script>
+        <script src="./../static/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./../static/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./../static/js/owl.carousel.min.js"></script>
+        <script src="./../static/js/slick.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./../static/js/wow.min.js"></script>
+		<script src="./../static/js/animated.headline.js"></script>
+        <script src="./../static/js/jquery.magnific-popup.js"></script>
+
+		<!-- Nice-select, sticky -->
+        <script src="./../static/js/jquery.nice-select.min.js"></script>
+		<script src="./../static/js/jquery.sticky.js"></script>
+
+        <!-- contact js -->
+        <script src="./../static/js/contact.js"></script>
+        <script src="./../static/js/jquery.form.js"></script>
+        <script src="./../static/js/jquery.validate.min.js"></script>
+        <script src="./../static/js/mail-script.js"></script>
+        <script src="./../static/js/jquery.ajaxchimp.min.js"></script>
+
+		<!-- Jquery Plugins, main Jquery -->
+        <script src="./../static/js/plugins.js"></script>
+        <script src="./../static/js/main.js"></script>
+
+    </body>
+</html>
