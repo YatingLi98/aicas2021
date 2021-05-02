@@ -4,7 +4,7 @@
             width: 100%;
         }
     }
-        
+
     // Tabs Button Style
     .properties__button{
         float: right;
@@ -13,7 +13,7 @@
         }
          @media #{$sm}{
             float: left;
-        } 
+        }
         @media #{$xs}{
             float: left;
         }
@@ -30,7 +30,7 @@
             }
              @media #{$sm}{
                 padding: 10px 15px;
-            } 
+            }
             @media #{$xs}{
                 padding: 10px 15px;
             }
@@ -45,7 +45,7 @@
             left: 0;
             @media #{$sm}{
                display: none;
-            } 
+            }
             @media #{$xs}{
                 display: none;
             }
@@ -74,15 +74,16 @@
             justify-content: center;
             @media #{$md}{
                 justify-content: start;
-            } 
+            }
             @media #{$sm}{
                 justify-content: start;
-            } 
+            }
             @media #{$xs}{
                 justify-content: start;
             }
     }
 }
+
 
 .tab-pane{
     @include transition(.6s);

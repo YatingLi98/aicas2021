@@ -22,9 +22,51 @@
             <link rel="stylesheet" href="../static/css/nice-select.css">
             <link rel="stylesheet" href="../static/css/style.css">
             <link rel="stylesheet" href="../static/css/timeline.css">
+            <link rel="stylesheet" href="../static/css/clock.css">
+            <script type="text/javascript">
+              function getWorldTime(tzOffset) {
+                var now = new Date();
+                var tz = now.getTime() + (now.getTimezoneOffset() * 60000) + (tzOffset * 3600000);
+                now.setTime(tz);
+
+                var _time = {};
+
+                var s =leadingZeros(now.getFullYear(), 4)+'-'+leadingZeros(now.getMonth() + 1, 2)+'-'+leadingZeros(now.getDate(), 2)+' '+
+                leadingZeros(now.getHours(), 2)+':'+leadingZeros(now.getMinutes(), 2)+':'+leadingZeros(now.getSeconds(), 2);
+
+                return s;
+              }
+
+              function leadingZeros(n, digits) {
+                var zero = '';
+                n = n.toString();
+
+                if (n.length < digits) {
+                for (i = 0; i < digits - n.length; i++)
+                  zero += '0';
+                }
+                return zero + n;
+              }
+
+              function updateTime(){
+                $(".world_time > li:eq(0) span:eq(0)").text(getWorldTime(-4));
+                $(".world_time > li:eq(1) span:eq(0)").text(getWorldTime(-7));
+                $(".world_time > li:eq(2) span:eq(0)").text(getWorldTime(+8));
+                $(".world_time > li:eq(3) span:eq(0)").text(getWorldTime(+2));
+
+                setInterval(() => {
+                  $(".world_time > li:eq(0) span:eq(0)").text(getWorldTime(-4));
+                  $(".world_time > li:eq(1) span:eq(0)").text(getWorldTime(-7));
+                  $(".world_time > li:eq(2) span:eq(0)").text(getWorldTime(+8));
+                  $(".world_time > li:eq(3) span:eq(0)").text(getWorldTime(+2));
+                }, 1000);
+              };
+              </script>
+
    </head>
 
-   <body>
+   <body onload="updateTime()">
+
     <!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -78,9 +120,6 @@
                                             </ul>
                                         </nav>
                                     </div>
-                                    <!-- <div class="header-right-btn f-right d-none d-xl-block ml-20">
-                                        <a href="#" class="btn header-btn">Get Free Consultent</a>
-                                    </div> -->
                                 </div>
                             </div>
                             <!-- Mobile Menu -->
@@ -102,11 +141,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap">
-                                <h2>My Portfolio</h2>
+                                <h2>Program Schedule</h2>
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">My Portfolio</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Program Schedule</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -117,53 +156,66 @@
         </div>
         <!-- Header End -->
         <!-- Services Area Start -->
-        <section class="services-area  services-padding">
+        <section class="about-area section-paddingt30 mb50">
             <div class="container">
-               <div class="project-heading mb-35">
-                    <div class="row align-items-end">
-                        <div class="col-lg-6">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle">
-                                <h2>What Services you will Get from me!</h2>
-                            </div>
-                        </div>
+                <div class="row ">
+                    <!-- <div class="col-lg-5"> -->
+                    <div class="about-caption">
+                        <h2>Program Schedule</h2>
+                        <p>Times are expressed in Eastern Standard Time (GMT-4).</p>
+                        <p class="pera1">
+                          Download the Program Schedule in pdf format
+                          <a href={{ url_for('send_pdf', path="AICAS2021schedule.pdf") }} target="_blank">HERE</a>.
+                        </p>
                     </div>
-               </div>
+                    </div>
+            </div>
+        </section>
+        <section class="services-area mb50">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <!-- Nav Card -->
                         <div class="tab-content active" id="nav-tabContent">
-                            <!-- card ONE -->
-
-                                <div class="services-caption">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-4 col-sm-4">
-                                            <!-- Single -->
-                                            <div class="single-services mb-30">
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-4">
-                                            <!-- Single -->
-                                            <div class="single-services mb-30">
-                                                <img src="../static/img/service/services5.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-4">
-                                            <!-- Single -->
-                                            <div class="single-services mb-30">
-                                                <img src="../static/img/service/services6.png" alt="">
-                                            </div>
-                                        </div>
-
-                                </div>
+                              <div class="single-services mb-30">
+                                <ul class="world_time">
+                                  <li>
+                                    <span></span>
+                                    <span class="w_time">New York (GMT-4)</span>
+                                  </li>
+                                  <li>
+                                    <span></span>
+                                    <span class="w_time">San Francisco (GMT-7)</span>
+                                  </li>
+                                  <li>
+                                    <span></span>
+                                    <span class="w_time">Beijing (GMT+8)</span>
+                                  </li>
+                                  <li>
+                                    <span></span>
+                                    <span class="w_time">Central European (GMT+2)</span>
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
+                      </div>
+                </div>
+                <div class="portfolio-details-area">
+                    <div class="container">
+                        <div class="row">
+
+                                <div class="portfolio-img">
+                                    <div class="details-img mb-40">
+                                        <img src="../static/img/gallery/program_schedual.png" alt="">
+                                    </div>
+                                </div>
+                      
                         </div>
-                    <!-- End Nav Card -->
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Services Area End -->
 
     </main>

@@ -1,0 +1,12 @@
+
+.world_time {
+  display:flex;
+  margin: 3% 0;
+}
+.world_time li{
+  border:1px solid #ccc;
+  width:25%;
+  /* display: inline; */
+  padding: 2% 2%; font-size:1em; text-align:center; font-weight:bold;}
+.world_time li span{display:block; padding: 5px 0;}
+.world_time li .w_time{color: #014199; border-top:1px solid #ccc;}
