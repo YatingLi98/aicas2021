@@ -649,6 +649,17 @@
         margin-bottom: 8px;
         margin-left: 10px;
         color: #999999;
+        // border-bottom: 1px solid #e7e7e7;
+        @media(min-width: 768px) {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #2F6620;
         @media(min-width: 768px) {
             font-size: 20px;
             margin-bottom: 15px;

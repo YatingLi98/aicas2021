@@ -2867,9 +2867,9 @@ hr {
   color: #10285D;
 }
 .about-area .about-caption h6 {
-  color: #898989;
+  font-size: 20px;
+  color: #2F6620;
   font-weight: 700;
-  margin-left: 10px;
 }
 .about-area .about-caption b {
   font-weight: bold;
@@ -4106,6 +4106,18 @@ hr {
 }
 @media (min-width: 768px) {
   .blog_details h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+.blog_details h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #2F6620;
+}
+@media (min-width: 768px) {
+  .blog_details h5 {
     font-size: 20px;
     margin-bottom: 15px;
   }
